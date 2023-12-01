@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: white;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 15%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 20px;
+    margin-bottom: 100px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+}
+.prof{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.prof h1{
+    margin-bottom: 20px;
+    color: black;
+    font-size: 50px;
+}
+span{
+    color: orange;
+}
+.prof p{
+    line-height: 22px;
+    color: #555;
+}
+.prof a{
+    background: black;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.prof a:hover{
+    color: red;
+    cursor: pointer;
+}
+.images{
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    bottom: 0%;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover .shape{
+    bottom: 40px;
+}
+.images:hover .girl{
+    left: 45%;
+}
+.pages img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.pages{
+    margin: 100px;
+}
+.project{
+    margin-top: 30px;
+    font-weight: bold;
+    margin: 30px;
+    align-items: center;
+}
+.pro1{
+    margin: 50px;
+}
+.pro1 h1{
+    font-weight: bold;
+    font-size: 22px;
+    display: inline-block;
+}
+.pro img{
+    display: inline-block;
+}
